@@ -1,0 +1,26 @@
+# Android / Gradle
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+!/release/*.apk
+
+# Python / ML
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# UCI-HAR dataset is downloaded locally, not committed (see ml/dataset/README.md)
+ml/dataset/*
+!ml/dataset/README.md
+ml/models/baseline/

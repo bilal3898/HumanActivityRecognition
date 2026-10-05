@@ -1,0 +1,102 @@
+{
+  "test_accuracy": 0.9226331862911435,
+  "macro_f1": 0.9224711484064484,
+  "weighted_f1": 0.9226587890057483,
+  "per_class": {
+    "WALKING": {
+      "precision": 0.9939516129032258,
+      "recall": 0.9939516129032258,
+      "f1-score": 0.9939516129032258,
+      "support": 496.0
+    },
+    "WALKING_UPSTAIRS": {
+      "precision": 0.952808988764045,
+      "recall": 0.9002123142250531,
+      "f1-score": 0.925764192139738,
+      "support": 471.0
+    },
+    "WALKING_DOWNSTAIRS": {
+      "precision": 0.8993288590604027,
+      "recall": 0.9571428571428572,
+      "f1-score": 0.9273356401384083,
+      "support": 420.0
+    },
+    "SITTING": {
+      "precision": 0.8203125,
+      "recall": 0.8553971486761711,
+      "f1-score": 0.8374875373878365,
+      "support": 491.0
+    },
+    "STANDING": {
+      "precision": 0.8686274509803922,
+      "recall": 0.8327067669172933,
+      "f1-score": 0.8502879078694817,
+      "support": 532.0
+    },
+    "LAYING": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 537.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      493,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      424,
+      42,
+      5,
+      0,
+      0
+    ],
+    [
+      2,
+      16,
+      402,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      420,
+      67,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      87,
+      443,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      537
+    ]
+  ],
+  "labels": [
+    "WALKING",
+    "WALKING_UPSTAIRS",
+    "WALKING_DOWNSTAIRS",
+    "SITTING",
+    "STANDING",
+    "LAYING"
+  ],
+  "test_windows": 2947
+}

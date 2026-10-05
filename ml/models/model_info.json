@@ -1,0 +1,35 @@
+{
+  "name": "HAR CNN-LSTM",
+  "version": "1.0.0",
+  "dataset": "UCI Human Activity Recognition Using Smartphones",
+  "input_shape": [
+    1,
+    128,
+    9
+  ],
+  "channels": [
+    "body_acc_x",
+    "body_acc_y",
+    "body_acc_z",
+    "body_gyro_x",
+    "body_gyro_y",
+    "body_gyro_z",
+    "total_acc_x",
+    "total_acc_y",
+    "total_acc_z"
+  ],
+  "sampling_rate_hz": 50,
+  "window_size": 128,
+  "labels": [
+    "WALKING",
+    "WALKING_UPSTAIRS",
+    "WALKING_DOWNSTAIRS",
+    "SITTING",
+    "STANDING",
+    "LAYING"
+  ],
+  "parameters": 103174,
+  "size_kb": 411.6,
+  "test_accuracy": 0.9226331862911435,
+  "macro_f1": 0.9224711484064484
+}

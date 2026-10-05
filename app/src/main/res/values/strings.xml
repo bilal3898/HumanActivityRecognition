@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HAR CNN-LSTM</string>
+    <string name="notification_channel_name">Activity recognition</string>
+    <string name="notification_channel_description">Shows the activity currently being recognised</string>
+    <string name="notification_title">Recognising activity</string>
+    <string name="notification_waiting">Collecting sensor data…</string>
+    <string name="action_stop">Stop</string>
+</resources>
